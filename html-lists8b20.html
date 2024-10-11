@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  ol.decimal {
+    list-style-type: decimal;
+  }
+  ol.lower-latin {
+    list-style-type: lower-latin;
+  }
+  ol.upper-roman {
+    list-style-type: upper-roman;
+  }
+  ul.circle {
+    list-style-type: circle;
+  }
+  ul.disc {
+    list-style-type: disc;
+  }
+</style>
+<title>HTML lists</title>
+</head>
+
+<body>
+<ol class="upper-roman">
+<li>List item 1
+  <ol class="lower-latin">
+  <li>Nested item 1.1</li>
+  <li>Nested item 1.2</li>
+  </ol>
+</li>
+<li>List item 2
+  <ol class="decimal">
+    <li>Nested item 2.1</li>
+    <li>Nested item 2.2
+      <ul class="circle">
+        <li>Nested item 2.2.1</li>
+        <li>Nested item 2.2.2</li>
+        <li>Nested item 2.2.3</li>
+      </ul>
+    </li>
+    <li>Nested item 2.3</li>
+  </ol>
+</li>
+<li>List item 3
+  <ul class="disc">
+    <li>Nested item 3.1</li>
+    <li>Nested item 3.2</li>
+    <li>Nested item 3.3</li>
+  </ul>
+</li>
+</ol>
+</body>
+
+</html>
