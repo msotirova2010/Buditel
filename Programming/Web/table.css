@@ -1,0 +1,22 @@
+thead {
+    background-color: #b2c2bf;
+}
+
+body {
+    background-color: #f4f9f9;
+}
+
+tfoot {
+    background-color: #ccf2f4;
+}
+
+h1 {
+    color: #034f84;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
