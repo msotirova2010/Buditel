@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration form</title>
+<link rel="stylesheet" href="registration-form.css">
+</head>
+
+<body>
+<form>
+<fieldset class="form">
+<legend>Registration form</legend>
+<div>
+<label for="name">Name:</label>
+<input id="name" type="text">
+</div>
+<div>
+<label for="pass">Password:</label>
+<input id="pass" type="password">
+</div>
+<div>
+<label for="g_male">Gender:</label>
+<input id="g_male" name="gender" type="radio" value="m">&nbsp;Male&nbsp;
+<input id="g_fem" name="gender" type="radio" value="f">&nbsp;Female
+</div>
+<div>
+<label for="city">Select City:</label>
+<select id="city">
+<option value="Sofia">Sofia</option>
+<option value="Sofia">Sofia</option>
+<option value="Varna">Varna</option>
+<option value="Burgas">Burgas</option>
+</select>
+</div>
+<div>
+<label for="bio">Describe Yourself:</label>
+<textarea id="bio" cols="30" placeholder="Tell me about yourself">
+</textarea>
+</div>
+<div>
+<label for="pp_agree">I agree to the Privacy Policy:</label>
+<input id="pp_agree" type="checkbox">
+</div>
+<input class="submit" type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+
+</html>
+
