@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=fo, initial-scale=1.0">
+<title>Customer Details Form</title>
+<style>
+  fieldset {
+    background-color:aliceblue;
+    width: 370px;
+    padding: 15px;
+  }
+  div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+<form action="#">
+<fieldset>
+<legend>Customer Details</legend>
+<div>
+<label for="fname">First Name:</label>
+<input id="fname" type="text" placeholder="Maria" autofocus>
+</div>
+<div>
+<label for="lname">Last Name:</label>
+<input id="lname" type="text" placeholder="Peneva">
+</div>
+<div>
+Gender:
+<input id="male" name="gender" type="radio" value="M"><label for="male">Male</label>
+<input id="female" name="gender" type="radio" value="F"><label for="female">Female</label>
+<input id="other" name="gender" type="radio" value="O"><label for="other">Other</label>
+</div>
+<div>
+Preferred contact method:
+<input id="c_email" name="contact" type="radio"><label for="c_email">Email</label>
+<input id="c_phone" name="contact" type="radio"><label for="c_phone">Phone</label>
+</div>
+<div>
+<label for="email">Email:</label>
+<input id="email" type="email" placeholder="your@email.com">
+</div>
+<div>
+<label for="phone">Phone:</label>
+<input id="phone" type="tel" placeholder="089629382">
+</div>
+<div>
+<label for="town">Town:</label>
+<select id="town">
+<option value="sof">Sofia</option>
+<option value="var">Varna</option>
+<option value="bur">Burgas</option>
+</select>
+</div>
+<div>
+<label for="age">Age:</label>
+<input id="age" max="70" min="18" type="number" size="5">
+</div>
+<div>
+<label for="plang">Programming Language:</label>
+<input list="p_langs" name="plang" id="plang">
+<datalist id="p_langs">
+<option value="java">Java</option>
+<option value="php">PHP</option>
+<option value="c#">C#</option>
+<option value="js">JavaScript</option>
+<option value="oth">Other</option>
+</datalist>
+</div>
+<div>
+<textarea id="bio" placeholder="More information..." cols="20" rows="5"></textarea>
+</div>
+<div>
+<input id="agreement" type="checkbox" checked><label for="agreement">
+I agree to the Terms and Conditions
+</label>
+</div>
+<div>
+<input type="submit" value="Send">
+</div>
+</fieldset>
+</form>
+</body>
+
+</html>
