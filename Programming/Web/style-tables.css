@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: Montserrat, sans-serif;
+    padding: 16px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    height: 32px;
+    padding-right: 5px;
+    width: 144px;
+}
+

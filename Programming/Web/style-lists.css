@@ -1,0 +1,20 @@
+body {
+    background-color: #ededed;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h2 {
+    background-color: #3b516b;
+    border-radius: 10px;
+    color: floralwhite;
+    letter-spacing: 3px;
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+li {
+    margin-left: 20px;
+}
