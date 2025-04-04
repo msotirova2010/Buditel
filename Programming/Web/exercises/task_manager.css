@@ -103,3 +103,42 @@ footer {
     grid-template-columns: auto;
   }
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #b5d8ff;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #dae9f3;
+}
+
+table tr:hover {
+  background-color: rgb(173, 204, 240);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(84, 144, 212);
+  color: white;
+}
+
+div.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+div.tasks-grid div.task h1 {
+  background: #eee;
+  padding: 8px 10px;
+  border-radius: 2px;
+}
+
